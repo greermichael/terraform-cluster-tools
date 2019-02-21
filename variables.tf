@@ -7,8 +7,3 @@ variable "poll_time_in_seconds" {
 }
 
 variable "expected_node_count" {}
-
-variable depends_on {
-  default = []
-  type    = "list"
-}
